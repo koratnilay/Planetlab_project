@@ -1,0 +1,174 @@
+
+Sun Nov 26 12:40:01 EST 2017
+PING planetlab4.mini.pw.edu.pl (194.29.178.14) 56(84) bytes of data.
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=1 ttl=48 time=125 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=2 ttl=48 time=120 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=3 ttl=48 time=122 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=4 ttl=48 time=120 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=5 ttl=48 time=397 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=6 ttl=48 time=824 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=7 ttl=48 time=124 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=8 ttl=48 time=120 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=9 ttl=48 time=124 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=10 ttl=48 time=123 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=11 ttl=48 time=438 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=12 ttl=48 time=860 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=13 ttl=48 time=480 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=14 ttl=48 time=120 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=15 ttl=48 time=121 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=16 ttl=48 time=124 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=17 ttl=48 time=451 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=18 ttl=48 time=127 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=19 ttl=48 time=121 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=20 ttl=48 time=121 ms
+
+--- planetlab4.mini.pw.edu.pl ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19024ms
+rtt min/avg/max/mdev = 120.005/258.644/860.868/232.316 ms
+
+**************************************************
+
+Sun Nov 26 13:40:01 EST 2017
+PING planetlab4.mini.pw.edu.pl (194.29.178.14) 56(84) bytes of data.
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=1 ttl=48 time=120 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=2 ttl=48 time=119 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=3 ttl=48 time=120 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=4 ttl=48 time=120 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=5 ttl=48 time=496 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=6 ttl=48 time=120 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=7 ttl=48 time=124 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=8 ttl=48 time=120 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=9 ttl=48 time=483 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=10 ttl=48 time=506 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=11 ttl=48 time=120 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=12 ttl=48 time=120 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=13 ttl=48 time=471 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=14 ttl=48 time=495 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=15 ttl=48 time=126 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=16 ttl=48 time=120 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=17 ttl=48 time=565 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=18 ttl=48 time=587 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=19 ttl=48 time=120 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=20 ttl=48 time=122 ms
+
+--- planetlab4.mini.pw.edu.pl ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19017ms
+rtt min/avg/max/mdev = 119.836/259.091/587.029/189.390 ms
+
+**************************************************
+
+Sun Nov 26 14:40:01 EST 2017
+PING planetlab4.mini.pw.edu.pl (194.29.178.14) 56(84) bytes of data.
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=1 ttl=48 time=121 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=2 ttl=48 time=122 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=3 ttl=48 time=120 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=4 ttl=48 time=121 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=5 ttl=48 time=1082 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=6 ttl=48 time=1004 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=7 ttl=48 time=956 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=8 ttl=48 time=120 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=9 ttl=48 time=130 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=10 ttl=48 time=125 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=11 ttl=48 time=358 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=12 ttl=48 time=135 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=13 ttl=48 time=123 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=14 ttl=48 time=132 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=15 ttl=48 time=255 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=16 ttl=48 time=123 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=17 ttl=48 time=126 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=18 ttl=48 time=123 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=19 ttl=48 time=129 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=20 ttl=48 time=124 ms
+
+--- planetlab4.mini.pw.edu.pl ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19121ms
+rtt min/avg/max/mdev = 120.366/276.859/1082.456/315.592 ms, pipe 2
+
+**************************************************
+
+Sun Nov 26 15:40:01 EST 2017
+PING planetlab4.mini.pw.edu.pl (194.29.178.14) 56(84) bytes of data.
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=1 ttl=48 time=516 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=2 ttl=48 time=132 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=3 ttl=48 time=126 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=4 ttl=48 time=125 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=5 ttl=48 time=401 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=6 ttl=48 time=242 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=7 ttl=48 time=122 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=8 ttl=48 time=135 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=9 ttl=48 time=138 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=10 ttl=48 time=128 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=11 ttl=48 time=225 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=12 ttl=48 time=458 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=13 ttl=48 time=269 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=14 ttl=48 time=133 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=15 ttl=48 time=128 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=16 ttl=48 time=123 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=17 ttl=48 time=257 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=18 ttl=48 time=279 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=19 ttl=48 time=301 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=20 ttl=48 time=124 ms
+
+--- planetlab4.mini.pw.edu.pl ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19023ms
+rtt min/avg/max/mdev = 122.105/218.632/516.720/119.141 ms
+
+**************************************************
+
+Sun Nov 26 16:40:01 EST 2017
+PING planetlab4.mini.pw.edu.pl (194.29.178.14) 56(84) bytes of data.
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=1 ttl=48 time=127 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=2 ttl=48 time=130 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=3 ttl=48 time=131 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=4 ttl=48 time=326 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=5 ttl=48 time=164 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=6 ttl=48 time=126 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=7 ttl=48 time=128 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=8 ttl=48 time=123 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=9 ttl=48 time=131 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=10 ttl=48 time=131 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=11 ttl=48 time=130 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=12 ttl=48 time=123 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=13 ttl=48 time=128 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=14 ttl=48 time=296 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=15 ttl=48 time=134 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=16 ttl=48 time=122 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=17 ttl=48 time=137 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=18 ttl=48 time=187 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=19 ttl=48 time=126 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=20 ttl=48 time=126 ms
+
+--- planetlab4.mini.pw.edu.pl ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19028ms
+rtt min/avg/max/mdev = 122.136/151.763/326.482/55.441 ms
+
+**************************************************
+
+Mon Nov 27 12:40:01 EST 2017
+PING planetlab4.mini.pw.edu.pl (194.29.178.14) 56(84) bytes of data.
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=1 ttl=48 time=123 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=2 ttl=48 time=120 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=3 ttl=48 time=119 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=4 ttl=48 time=132 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=5 ttl=48 time=920 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=6 ttl=48 time=120 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=7 ttl=48 time=122 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=8 ttl=48 time=124 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=9 ttl=48 time=1007 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=10 ttl=48 time=123 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=11 ttl=48 time=122 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=12 ttl=48 time=122 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=13 ttl=48 time=599 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=14 ttl=48 time=1022 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=15 ttl=48 time=1004 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=16 ttl=48 time=123 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=17 ttl=48 time=121 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=18 ttl=48 time=122 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=19 ttl=48 time=235 ms
+64 bytes from planetlab4.mini.pw.edu.pl (194.29.178.14): icmp_seq=20 ttl=48 time=177 ms
+
+--- planetlab4.mini.pw.edu.pl ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19047ms
+rtt min/avg/max/mdev = 119.866/328.379/1022.056/346.620 ms, pipe 2
+
+**************************************************

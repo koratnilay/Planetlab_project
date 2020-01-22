@@ -1,0 +1,24 @@
+
+USA
+planetlab3.rutgers.edu (EC)
+planetlab3.cs.uoregon.edu (WC)
+planetlab04.cs.washington.edu (EC)
+planetlab1.cs.purdue.edu (EC)
+planetlabone.ccs.neu.edu (EC)
+planetlab-2.calpoly-netlab.net (WC)
+planetlab5.eecs.umich.edu (EC)
+
+TRANS Pacific
+Hong Kong 
+planetlab5.ie.cuhk.edu.hk
+AUS
+pl2.eng.monash.edu.au
+
+Canada
+
+pl2.rcc.uottawa.ca
+
+TRANS ATLANTIC
+Europe
+planetlab4.mini.pw.edu.pl
+planetlab2.inf.ethz.ch

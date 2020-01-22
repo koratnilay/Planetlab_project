@@ -1,0 +1,28 @@
+#!/bin/bash
+
+mkdir ~/nk579847/pingdata
+mkdir ~/nk579847/traceroutedata
+
+touch ~/nk579847/pingdata/pingdata
+touch ~/nk579847/traceroutedata/traceroute
+
+cd ~/bin
+
+echo"" >> ~/nk579847/pingdata/pingdata
+date >> ~/nk579847/pingdata/pingdata
+ping -c 20 planetlab4.mini.pw.edu.pl >> ~/nk579847/pingdata/pingdata
+echo"" >> ~/nk579847/pingdata/pingdata
+printf "%0.s*" {1..50} >> ~/nk579847/pingdata/pingdata
+echo"" >> ~/nk579847/pingdata/pingdata
+
+
+echo"" >> ~/nk579847/traceroutedata/traceroute
+date >> ~/nk579847/traceroutedata/traceroute
+traceroute planetlab4.mini.pw.edu.pl >> ~/nk579847/traceroutedata/traceroute
+echo"" >> ~/nk579847/traceroutedata/traceroute
+printf "%0.s-" {1..50} >> ~/nk579847/traceroutedata/traceroute
+echo"" >> ~/nk579847/traceroutedata/traceroute
+
+cat ~/nk579847/pingdata/pingdata
+cat ~/nk579847/traceroutedata/traceroute
+

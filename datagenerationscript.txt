@@ -1,0 +1,174 @@
+
+touch planetlab4.mini.pw.edu.pl/packetloss
+cat planetlab4.mini.pw.edu.pl/pingdata_rut | gawk '(/packets/){print $6}' >> planetlab4.mini.pw.edu.pl/packetloss
+
+touch planetlab-2.calpoly-netlab.net/packetloss
+cat planetlab-2.calpoly-netlab.net/pingdata | gawk '(/packets/){print $6}' >> planetlab-2.calpoly-netlab.net/packetloss
+
+touch planetlab04.cs.washington.edu/packetloss
+cat planetlab04.cs.washington.edu/pingdata | gawk '(/packets/){print $6}' >> planetlab04.cs.washington.edu/packetloss
+
+touch planetlab1.cs.purdue.edu/packetloss
+cat planetlab1.cs.purdue.edu/pingdata | gawk '(/packets/){print $6}' >> planetlab1.cs.purdue.edu/packetloss
+
+touch planetlab3.cs.uoregon.edu/packetloss
+cat planetlab3.cs.uoregon.edu/pingdata | gawk '(/packets/){print $6}' >> planetlab3.cs.uoregon.edu/packetloss
+
+touch planetlab3.rutgers.edu/packetloss
+cat planetlab3.rutgers.edu/pingdata_pl | gawk '(/packets/){print $6}' >> planetlab3.rutgers.edu/packetloss
+
+touch planetlab5.eecs.umich.edu/packetloss
+cat planetlab5.eecs.umich.edu/pingdata | gawk '(/packets/){print $6}' >> planetlab5.eecs.umich.edu/packetloss
+
+touch planetlab5.ie.cuhk.edu.hk/packetloss
+cat planetlab5.ie.cuhk.edu.hk/pingdata | gawk '(/packets/){print $6}' >> planetlab5.ie.cuhk.edu.hk/packetloss
+
+touch planetlabone.ccs.neu.edu/packetloss
+cat planetlabone.ccs.neu.edu/pingdata | gawk '(/packets/){print $6}' >> planetlabone.ccs.neu.edu/packetloss
+
+touch plink.cs.uwaterloo.ca/packetloss
+cat plink.cs.uwaterloo.ca/pingdata | gawk '(/packets/){print $6}' >> plink.cs.uwaterloo.ca/packetloss
+
+
+touch planetlab4.mini.pw.edu.pl/hopcount
+cat planetlab4.mini.pw.edu.pl/traceroute_rut | gawk '(/165.230.49.118) /){print $1}' >> planetlab4.mini.pw.edu.pl/hopcount
+
+touch planetlab-2.calpoly-netlab.net/hopcount
+cat planetlab-2.calpoly-netlab.net/traceroute | gawk '(/128.208.4.99) /){print $1}' >> planetlab-2.calpoly-netlab.net/hopcount
+
+touch planetlab04.cs.washington.edu/hopcount
+cat planetlab04.cs.washington.edu/traceroute | gawk '(/208.94.63.194) /){print $1}' >> planetlab04.cs.washington.edu/hopcount
+
+touch planetlab1.cs.purdue.edu/hopcount
+cat planetlab1.cs.purdue.edu/traceroute | gawk '(/129.97.74.12) /){print $1}' >> planetlab1.cs.purdue.edu/hopcount
+
+touch planetlab3.cs.uoregon.edu/hopcount
+cat planetlab3.cs.uoregon.edu/traceroute | gawk '(/103.49.160.135) /){print $1}' >> planetlab3.cs.uoregon.edu/hopcount
+
+touch planetlab3.rutgers.edu/hopcount
+cat planetlab3.rutgers.edu/traceroute_pl | gawk '(/194.29.132.2) /){print $1}' >> planetlab3.rutgers.edu/hopcount
+
+touch planetlab5.eecs.umich.edu/hopcount
+cat planetlab5.eecs.umich.edu/traceroute | gawk '(/129.10.120.193) /){print $1}' >> planetlab5.eecs.umich.edu/hopcount
+
+touch planetlab5.ie.cuhk.edu.hk/hopcount
+cat planetlab5.ie.cuhk.edu.hk/traceroute | gawk '(/128.223.8.113) /){print $1}' >> planetlab5.ie.cuhk.edu.hk/hopcount
+
+touch planetlabone.ccs.neu.edu/hopcount
+cat planetlabone.ccs.neu.edu/traceroute | gawk '(/141.212.113.180) /){print $1}' >> planetlabone.ccs.neu.edu/hopcount
+
+touch plink.cs.uwaterloo.ca/hopcount
+cat plink.cs.uwaterloo.ca/traceroute | gawk '(/128.10.18.52) /){print $1}' >> plink.cs.uwaterloo.ca/hopcount
+
+
+
+
+
+touch planetlab4.mini.pw.edu.pl/rtt
+awk '
+/^PING / {h=$2}
+/packet loss/ {pl=$6}
+/min\/avg\/max/ {
+split($4,a,"/")
+printf("%s \n",a[2])
+}
+' planetlab4.mini.pw.edu.pl/pingdata_rut >> planetlab4.mini.pw.edu.pl/rtt
+
+
+touch planetlab-2.calpoly-netlab.net/rtt
+awk '
+/^PING / {h=$2}
+/packet loss/ {pl=$6}
+/min\/avg\/max/ {
+split($4,a,"/")
+printf("%s \n",a[2])
+}
+' planetlab-2.calpoly-netlab.net/pingdata >> planetlab-2.calpoly-netlab.net/rtt
+
+
+touch planetlab04.cs.washington.edu/rtt
+awk '
+/^PING / {h=$2}
+/packet loss/ {pl=$6}
+/min\/avg\/max/ {
+split($4,a,"/")
+printf("%s \n",a[2])
+}
+' planetlab04.cs.washington.edu/pingdata >> planetlab04.cs.washington.edu/rtt
+
+
+touch planetlab1.cs.purdue.edu/rtt
+awk '
+/^PING / {h=$2}
+/packet loss/ {pl=$6}
+/min\/avg\/max/ {
+split($4,a,"/")
+printf("%s \n",a[2])
+}
+' planetlab1.cs.purdue.edu/pingdata >> planetlab1.cs.purdue.edu/rtt
+
+
+touch planetlab3.cs.uoregon.edu/rtt
+awk '
+/^PING / {h=$2}
+/packet loss/ {pl=$6}
+/min\/avg\/max/ {
+split($4,a,"/")
+printf("%s \n",a[2])
+}
+' planetlab3.cs.uoregon.edu/pingdata >> planetlab3.cs.uoregon.edu/rtt
+
+
+touch planetlab3.rutgers.edu/rtt
+awk '
+/^PING / {h=$2}
+/packet loss/ {pl=$6}
+/min\/avg\/max/ {
+split($4,a,"/")
+printf("%s \n",a[2])
+}
+' planetlab3.rutgers.edu/pingdata_pl >> planetlab3.rutgers.edu/rtt
+
+
+touch planetlab5.eecs.umich.edu/rtt
+awk '
+/^PING / {h=$2}
+/packet loss/ {pl=$6}
+/min\/avg\/max/ {
+split($4,a,"/")
+printf("%s \n",a[2])
+}
+' planetlab5.eecs.umich.edu/pingdata_rut >> planetlab5.eecs.umich.edu/rtt
+
+
+touch planetlab5.ie.cuhk.edu.hk/rtt
+awk '
+/^PING / {h=$2}
+/packet loss/ {pl=$6}
+/min\/avg\/max/ {
+split($4,a,"/")
+printf("%s \n",a[2])
+}
+' planetlab5.ie.cuhk.edu.hk/pingdata_rut >> planetlab5.ie.cuhk.edu.hk/rtt
+
+
+touch planetlabone.ccs.neu.edu/rtt
+awk '
+/^PING / {h=$2}
+/packet loss/ {pl=$6}
+/min\/avg\/max/ {
+split($4,a,"/")
+printf("%s \n",a[2])
+}
+' planetlabone.ccs.neu.edu/pingdata_rut >> planetlabone.ccs.neu.edu/rtt
+
+
+touch plink.cs.uwaterloo.ca/rtt
+awk '
+/^PING / {h=$2}
+/packet loss/ {pl=$6}
+/min\/avg\/max/ {
+split($4,a,"/")
+printf("%s \n",a[2])
+}
+' plink.cs.uwaterloo.ca/pingdata_rut >> plink.cs.uwaterloo.ca/rtt

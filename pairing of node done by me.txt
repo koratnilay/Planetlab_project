@@ -1,0 +1,30 @@
+PAIR 1 Trans Atlantic
+Main
+ssh -i ~/.ssh/nk579847_rsa albany_ccn9@planetlab4.mini.pw.edu.pl
+ssh -i ~/.ssh/nk579847_rsa albany_ccn9@planetlab3.rutgers.edu (EC)
+Secondry
+planetlab2.inf.ethz.ch
+planetlab04.cs.washington.edu (EC)
+
+PAIR 2 Trans Pacific
+Main
+ssh -i ~/.ssh/nk579847_rsa albany_ccn9@planetlab5.ie.cuhk.edu.hk
+ssh -i ~/.ssh/nk579847_rsa albany_ccn9@planetlab3.cs.uoregon.edu (WC)
+Secondry
+pl2.eng.monash.edu.au
+planetlab-2.calpoly-netlab.net (WC)
+
+PAIR 4
+Main
+ssh -i ~/.ssh/nk579847_rsa albany_ccn9@planetlab-2.calpoly-netlab.net (WC)
+ssh -i ~/.ssh/nk579847_rsa albany_ccn9@planetlab04.cs.washington.edu (EC)
+
+PAIR 3
+Main
+ssh -i ~/.ssh/nk579847_rsa albany_ccn9@planetlab1.cs.purdue.edu (EC)
+ssh -i ~/.ssh/nk579847_rsa albany_ccn9@plink.cs.uwaterloo.ca
+
+PAIR 5
+Main
+ssh -i ~/.ssh/nk579847_rsa albany_ccn9@planetlab5.eecs.umich.edu (EC)
+ssh -i ~/.ssh/nk579847_rsa albany_ccn9@planetlabone.ccs.neu.edu (EC)

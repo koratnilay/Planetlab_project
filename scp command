@@ -1,0 +1,48 @@
+scp -i ~/.ssh/nk579847_rsa albany_ccn9@planetlab4.mini.pw.edu.pl:nk579847/pingdata/pingdata_rut /home/nkorat/nk579847
+
+scp -i ~/.ssh/nk579847_rsa albany_ccn9@planetlab4.mini.pw.edu.pl:/home/albany_ccn9/nk579847/traceroutedata/traceroute_rut /home/nkorat/nk579847/planetlab4.mini.pw.edu.pl/
+
+scp -i ~/.ssh/nk579847_rsa albany_ccn9@planetlab3.rutgers.edu:nk579847/pingdata/pingdata_pl /home/nkorat/nk579847/planetlab3.rutgers.edu
+
+scp -i ~/.ssh/nk579847_rsa albany_ccn9@planetlab3.rutgers.edu:nk579847/traceroutedata/traceroute_pl /home/nkorat/nk579847/planetlab3.rutgers.edu
+
+
+
+scp -i ~/.ssh/nk579847_rsa albany_ccn9@planetlab5.ie.cuhk.edu.hk:nk579847/pingdata/pingdata /home/nkorat/nk579847/planetlab5.ie.cuhk.edu.hk
+
+scp -i ~/.ssh/nk579847_rsa albany_ccn9@planetlab5.ie.cuhk.edu.hk:nk579847/traceroutedata/traceroute /home/nkorat/nk579847/planetlab5.ie.cuhk.edu.hk
+
+scp -i ~/.ssh/nk579847_rsa albany_ccn9@planetlab3.cs.uoregon.edu:nk579847/pingdata/pingdata /home/nkorat/nk579847/planetlab3.cs.uoregon.edu
+
+scp -i ~/.ssh/nk579847_rsa albany_ccn9@planetlab3.cs.uoregon.edu:nk579847/traceroutedata/traceroute /home/nkorat/nk579847/planetlab3.cs.uoregon.edu
+
+
+
+scp -i ~/.ssh/nk579847_rsa albany_ccn9@planetlab-2.calpoly-netlab.net:nk579847/pingdata/pingdata /home/nkorat/nk579847/planetlab-2.calpoly-netlab.net
+
+scp -i ~/.ssh/nk579847_rsa albany_ccn9@planetlab-2.calpoly-netlab.net:nk579847/traceroutedata/traceroute /home/nkorat/nk579847/planetlab-2.calpoly-netlab.net
+
+scp -i ~/.ssh/nk579847_rsa albany_ccn9@planetlab04.cs.washington.edu:nk579847/pingdata/pingdata /home/nkorat/nk579847/planetlab04.cs.washington.edu
+
+scp -i ~/.ssh/nk579847_rsa albany_ccn9@planetlab04.cs.washington.edu:nk579847/traceroutedata/traceroute /home/nkorat/nk579847/planetlab04.cs.washington.edu
+
+
+
+scp -i ~/.ssh/nk579847_rsa albany_ccn9@planetlab1.cs.purdue.edu:nk579847/pingdata/pingdata /home/nkorat/nk579847/planetlab1.cs.purdue.edu
+
+scp -i ~/.ssh/nk579847_rsa albany_ccn9@planetlab1.cs.purdue.edu:nk579847/traceroutedata/traceroute /home/nkorat/nk579847/planetlab1.cs.purdue.edu
+
+scp -i ~/.ssh/nk579847_rsa albany_ccn9@plink.cs.uwaterloo.ca:nk579847/pingdata/pingdata /home/nkorat/nk579847/plink.cs.uwaterloo.ca
+
+scp -i ~/.ssh/nk579847_rsa albany_ccn9@plink.cs.uwaterloo.ca:nk579847/traceroutedata/traceroute /home/nkorat/nk579847/plink.cs.uwaterloo.ca
+
+
+
+
+scp -i ~/.ssh/nk579847_rsa albany_ccn9@planetlab5.eecs.umich.edu:nk579847/pingdata/pingdata /home/nkorat/nk579847/planetlab5.eecs.umich.edu
+
+scp -i ~/.ssh/nk579847_rsa albany_ccn9@planetlab5.eecs.umich.edu:nk579847/traceroutedata/traceroute /home/nkorat/nk579847/planetlab5.eecs.umich.edu
+
+scp -i ~/.ssh/nk579847_rsa albany_ccn9@planetlabone.ccs.neu.edu:nk579847/pingdata/pingdata /home/nkorat/nk579847/planetlabone.ccs.neu.edu
+
+scp -i ~/.ssh/nk579847_rsa albany_ccn9@planetlabone.ccs.neu.edu:nk579847/traceroutedata/traceroute /home/nkorat/nk579847/planetlabone.ccs.neu.edu

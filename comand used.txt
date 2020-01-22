@@ -1,0 +1,21 @@
+sudo /etc/init.d/crond restart
+crontab -l
+
+0 * * * * ./bin/pandtscript
+
+
+ssh -i ~/.ssh/nk579847_rsa albany_ccn9@
+
+
+mkdir bin
+mkdir nk579847
+touch ~/bin/pandtscript
+chmod u+x ~/bin/pandtscript
+vi ~/bin/pandtscript
+
+
+
+./bin/pandtscript
+
+
+tail -n 30 nk579847/
